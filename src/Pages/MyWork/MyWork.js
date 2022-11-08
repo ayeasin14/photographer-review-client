@@ -14,10 +14,10 @@ const MyWork = () => {
             </div>
             <div className='grid grid-cols-3 gap-2'>
                 <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
-                <img src={img4} alt="" />
                 <img src={img5} alt="" />
+                <img src={img3} alt="" />
+                <img src={img2} alt="" />
+                <img src={img4} alt="" />
             </div>
         </div>
     );
