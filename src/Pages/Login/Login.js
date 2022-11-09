@@ -1,14 +1,54 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { GoogleAuthProvider } from 'firebase/auth';
+import React, { useContext, useState } from 'react';
+import { FaGoogle } from 'react-icons/fa';
+import { Link, useNavigate } from 'react-router-dom';
 import img02 from '../../assets/login/2.png'
+import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const Login = () => {
+    const [error, setError] = useState('');
+    const { Login, googleSignIn } = useContext(AuthContext);
+    const provider = new GoogleAuthProvider();
+    const navigate = useNavigate();
+
+
     const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
         console.log(email, password);
+
+        Login(email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                setError('');
+                form.reset();
+                navigate('/');
+            })
+            .catch(err => {
+                const errorMessage = err.message;
+                console.error(err);
+                setError(errorMessage);
+            })
+    }
+
+
+    const handleGoogleSignIn = (provider) => {
+
+        googleSignIn(provider)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                setError('');
+                navigate('/');
+            })
+            .catch(err => {
+                const errorMessage = err.message;
+                console.error(err);
+                setError(errorMessage);
+            })
     }
 
 
@@ -37,9 +77,16 @@ const Login = () => {
                                 <input type="password" name='password' placeholder="password" className="input input-bordered" required />
                             </div>
                             <div className="form-control mt-6">
+                                <p className='text-red-600 font-lg mb-3'>{error}</p>
                                 <input type="submit" className='btn btn-primary' value="Login" />
                             </div>
                         </form>
+                        <hr className='border border-green-700' />
+                        <div className='flex justify-center'>
+                            <button className='btn btn-outline btn-success' onClick={() => handleGoogleSignIn(provider)}>
+                                <FaGoogle className='mr-2' /> Sign In with
+                            </button>
+                        </div>
                         <div>
                             <label className="label">
                                 <p>Don't have account? <Link to='/register' className="link link-hover text-rose-500">Register</Link></p>

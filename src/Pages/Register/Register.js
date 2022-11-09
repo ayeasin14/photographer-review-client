@@ -1,8 +1,31 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { GoogleAuthProvider } from 'firebase/auth';
+import React, { useContext, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import img01 from '../../assets/login/1.png'
+import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import { FaGoogle } from "react-icons/fa";
 
 const Register = () => {
+    const [error, setError] = useState('');
+    const provider = new GoogleAuthProvider();
+    const { createUser, googleSignIn } = useContext(AuthContext);
+    const navigate = useNavigate();
+
+    const handleGoogleSignIn = (provider) => {
+
+        googleSignIn(provider)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                setError('');
+                navigate('/');
+            })
+            .catch(err => {
+                const errorMessage = err.message;
+                console.error(err);
+                setError(errorMessage);
+            })
+    }
 
     const handleSignUp = event => {
         event.preventDefault();
@@ -17,7 +40,22 @@ const Register = () => {
             return
         }
 
+        createUser(email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                setError('');
+                form.reset();
+                navigate('/');
+            })
+            .catch(error => {
+                console.error(error);
+            })
+
         console.log(fullname, email, password, confirmPass);
+
+
+
     }
 
     return (
@@ -58,13 +96,20 @@ const Register = () => {
                                 <input type="password" name='confirmPass' placeholder="Confirm password" className="input input-bordered" required />
                             </div>
                             <div className="form-control mt-6">
+                                <p className='text-red-600 font-lg'>{error}</p>
                                 <input type="submit" className='btn btn-primary' value="Register" />
                             </div>
                         </form>
+                        <hr className='border border-amber-500' />
+                        <div className='flex justify-center'>
+                            <button className='btn btn-outline btn-success' onClick={() => handleGoogleSignIn(provider)}>
+                                <FaGoogle className='mr-2' /> Sign In with
+                            </button>
+                        </div>
+                        <hr />
                         <div>
                             <label className="label">
                                 <p>Already have account? <Link to='/login' className="link link-hover text-rose-500">Login</Link></p>
-
                             </label>
                         </div>
                     </div>

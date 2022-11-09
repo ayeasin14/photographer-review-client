@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png';
+import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
+import { FaUserCircle } from "react-icons/fa";
 
 const Header = () => {
+    const { user, userSignOut } = useContext(AuthContext);
 
     const menuItems = <>
         <li><Link to="/home" >Home</Link></li>
@@ -10,8 +13,7 @@ const Header = () => {
         <li><Link to="/blogs" >Blogs</Link></li>
         <li><Link to="/reviews" >My Review</Link></li>
         <li><Link to="/addservice" >Add Service</Link></li>
-        <li><Link to="/login" >Login</Link></li>
-        <li><Link to="/register" >Register</Link></li>
+
     </>
 
 
@@ -37,7 +39,20 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to="/" className="btn">Get started</Link>
+                <div>
+                    {user?.uid ?
+                        <div className='flex justify-between items-center'>
+                            <h3 className='text-lg mr-2 font-medium'>{user?.displayName ? <p> {user.displayName} </p> : <p>Welcome here</p>}</h3>
+                            {user?.photoURL ? <img src={user?.photoURL} className='w-12 rounded-full' alt="" /> : <FaUserCircle className='text-3xl' />}
+                            <button onClick={userSignOut} className='btn btn-outline btn-error ml-2' >Sign Out</button>
+                        </div>
+                        :
+                        <div className=''>
+                            <Link to="/login" ><button className='btn btn-outline btn-primary mr-2'>Login</button></Link>
+                            <Link to="/register" ><button className='btn btn-outline btn-primary'>Register</button></Link>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
     );
