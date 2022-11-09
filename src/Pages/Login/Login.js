@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
+
+
+
+
         <div className="hero min-h-screen bg-base-200 my-10">
             <div className="hero-content flex-col lg:flex-row">
 
@@ -34,7 +38,6 @@ const Login = () => {
                         <div>
                             <label className="label">
                                 <p>Don't have account? <Link to='/register' className="link link-hover text-rose-500">Register</Link></p>
-
                             </label>
                         </div>
                     </div>

@@ -13,6 +13,7 @@ const ServiceDetails = () => {
                 <hr className='border border-emerald-700' />
                 <h1 className='text-3xl my-3 text-center font-semibold'>Customer's reviews about this service.</h1>
                 <Review></Review>
+
             </div>
             <div className='m-10'>
                 <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>
