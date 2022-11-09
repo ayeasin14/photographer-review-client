@@ -2,12 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
+    const handleLogin = event => {
+        event.preventDefault();
+        const form = event.target;
+    }
+
+
     return (
-
-
-
-
-        <div className="hero min-h-screen bg-base-200 my-10">
+        <div className="hero min-h-screen bg-base-200 my-10" >
             <div className="hero-content flex-col lg:flex-row">
 
                 <div className="text-center lg:w-1/2 lg:text-left">
@@ -43,7 +45,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
