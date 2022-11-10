@@ -22,6 +22,13 @@ const ServiceDetails = () => {
                 <p className='text-base'>{description}</p>
             </div>
 
+            <div className='m-10'>
+                <hr className='border border-emerald-700' />
+                <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>
+                <textarea name="review" className='rounded-lg w-full textarea textarea-accent text-xl' id="" cols="5" rows="5" placeholder="Write your review here at least 100 char..." /> <br />
+                <input type="submit" className='btn btn-info my-3' value="Submit" />
+            </div>
+
             <div className='mx-10'>
                 <hr className='border border-emerald-700' />
                 <h1 className='text-3xl my-3 text-center font-semibold'>Customer's reviews about this service.</h1>
@@ -30,17 +37,10 @@ const ServiceDetails = () => {
                         reviews.map(review => <Review
                             key={review.id}
                             review={review}
+                            img={img}
                         ></Review>)
                     }
                 </div>
-                {/* <Review></Review> */}
-
-            </div>
-
-            <div className='m-10'>
-                <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>
-                <textarea name="review" className='rounded-lg w-full textarea textarea-accent text-xl' id="" cols="30" rows="10" placeholder="Write your review here at least 100 char..." /> <br />
-                <input type="submit" className='btn btn-info my-3' value="Submit" />
             </div>
         </div>
     );

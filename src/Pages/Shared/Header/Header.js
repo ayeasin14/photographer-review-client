@@ -60,10 +60,6 @@ const Header = () => {
                         </div>
                         :
                         ""
-                        // <div className=''>
-                        //     <Link to="/login" ><button className='btn btn-outline btn-primary mr-2'>Login</button></Link>
-                        //     <Link to="/register" ><button className='btn btn-outline btn-primary'>Register</button></Link>
-                        // </div>
                     }
                 </div>
             </div>
