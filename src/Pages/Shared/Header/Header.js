@@ -18,7 +18,7 @@ const Header = () => {
 
 
     return (
-        <div className="navbar bg-base-100 drop-shadow-2xl">
+        <div className="navbar bg-base-100 drop-shadow-2xl sticky top-0 z-40">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const Header = () => {
                     {user?.uid ?
                         <div className='flex justify-between items-center'>
                             <h3 className='text-lg mr-2 font-medium'>{user?.displayName ? <p> {user.displayName} </p> : <p>Welcome here</p>}</h3>
-                            {user?.photoURL ? <img src={user?.photoURL} className='w-12 rounded-full' alt="" /> : <FaUserCircle className='text-3xl' />}
+                            {user?.photoURL ? <img src={user?.photoURL} className='w-10 rounded-full' alt="" /> : <FaUserCircle className='text-3xl' />}
                             <button onClick={userSignOut} className='btn btn-outline btn-error ml-2' >Sign Out</button>
                         </div>
                         :

@@ -1,16 +1,17 @@
 import React from 'react';
 
-const Review = () => {
+const Review = ({ review }) => {
+    const { name, email, details } = review;
     return (
         <div>
             <div className="overflow-x-auto w-full">
-                <table className="table w-full">
+                <table className="table">
 
                     <thead>
                         <tr>
                             <th>Delete</th>
                             <th>Name</th>
-                            <th>Review</th>
+                            <th className=''>Review</th>
                             <th>Update</th>
                         </tr>
                     </thead>
@@ -30,15 +31,13 @@ const Review = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="font-bold">Hart Hagerty</div>
-                                        <div className="text-sm opacity-50">United States</div>
+                                        <div className="font-bold">{name}</div>
+                                        <div className="text-sm opacity-50">{email}</div>
                                     </div>
                                 </div>
                             </td>
-                            <td>
-                                Zemlak, Daniel and Leannon
-                                <br />
-                                <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
+                            <td className=''>
+                                <span className='overflow-x-hidden'>{details}</span>
                             </td>
 
                             <th>
@@ -46,17 +45,6 @@ const Review = () => {
                             </th>
                         </tr>
                     </tbody>
-
-                    <tfoot>
-                        <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-
-                        </tr>
-                    </tfoot>
-
                 </table>
             </div>
 

@@ -1,6 +1,5 @@
 [
     {
-        "_id": "5234adsfj88sf97sdf78d01",
         "service_id": "01",
         "title": "Wedding Photogrpahy",
         "img": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
@@ -11,32 +10,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d02",
         "service_id": "02",
         "title": "Birthday Photogrpahy",
         "img": "https://images.unsplash.com/photo-1512308795231-7800e7ed6220?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -47,32 +45,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d03",
         "service_id": "03",
         "title": "Wild life Photogrpahy",
         "img": "https://images.unsplash.com/photo-1567095199396-d4e5588a3cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
@@ -83,32 +80,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d04",
         "service_id": "04",
         "title": "Tour Photogrpahy",
         "img": "https://images.unsplash.com/photo-1566317866215-abf25901b96c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
@@ -119,32 +115,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d05",
         "service_id": "05",
         "title": "Ocassional Photogrpahy",
         "img": "https://images.unsplash.com/photo-1615563553531-73b8923f54fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
@@ -155,32 +150,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d06",
         "service_id": "06",
         "title": "Celebration Photogrpahy",
         "img": "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
@@ -191,32 +185,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d07",
         "service_id": "07",
         "title": "Natural Photogrpahy",
         "img": "https://images.unsplash.com/photo-1560351161-32085581d06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -227,32 +220,31 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     },
     {
-        "_id": "5234adsfj88sf97sdf78d08",
         "service_id": "08",
         "title": "Animal Photogrpahy",
         "img": "https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -263,27 +255,27 @@
             {
                 "name": "Mahi Anam",
                 "email": "anam@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text."
             },
             {
                 "name": "Jahin afridee",
                 "email": "jahin@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
             },
             {
                 "name": "jack elecxz",
                 "email": "jacl@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. "
             },
             {
                 "name": "Lopem akjsam",
                 "email": "lopem@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. "
             },
             {
                 "name": "Majhiu asdcs",
                 "email": "majhiu@gmail.com",
-                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,"
+                "details": "Just Awesome, I love this service. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin "
             }
         ]
     }
