@@ -17,7 +17,7 @@ const ServiceSummery = () => {
                 <h1 className='text-4xl font-bold'>Our Services</h1>
                 <p className='my-6 font-semibold mx-auto w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate numquam nemo obcaecati aliquam magni doloribus, laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, eveniet?</p>
             </div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
                     services.map(service => <Service
                         key={service._id}

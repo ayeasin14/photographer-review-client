@@ -7,7 +7,7 @@ import img5 from '../../assets/mywork/p6-full.jpg'
 
 const MyWork = () => {
     return (
-        <div>
+        <div className='my-10'>
             <div className='text-center'>
                 <h1 className='text-4xl font-bold'>My Last Work</h1>
                 <p className='my-6 font-semibold mx-auto w-3/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate numquam nemo obcaecati aliquam magni doloribus, laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, eveniet?</p>
