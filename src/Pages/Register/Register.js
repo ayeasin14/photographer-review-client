@@ -4,12 +4,14 @@ import { Link, useNavigate } from 'react-router-dom';
 import img01 from '../../assets/login/1.png'
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 import { FaGoogle } from "react-icons/fa";
+import useTitle from '../../hooks/useTitle';
 
 const Register = () => {
     const [error, setError] = useState('');
     const provider = new GoogleAuthProvider();
     const { createUser, googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
+    useTitle('Register');
 
     const handleGoogleSignIn = (provider) => {
 

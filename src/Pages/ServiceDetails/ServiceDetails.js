@@ -1,11 +1,49 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import Review from '../Review/Review';
 import { FaStar } from "react-icons/fa";
+import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 
 const ServiceDetails = () => {
-    const { title, img, description, rating, price, reviews } = useLoaderData();
-    // const { name, email, details } = reviews;
+    useTitle('ServiceDetails');
+    // const [review, setReview] = useState([])
+    const { _id, service_id, title, img, description, rating, price, reviews } = useLoaderData();
+
+
+    const { user } = useContext(AuthContext);
+
+    // const handleReviewSubmit = event => {
+    //     event.preventDefault();
+    //     const review = event.target.review.value;
+
+    //     const newReviews = {
+    //         name: user.displayName,
+    //         reviewServiceId: service_id,
+    //         email: user.email,
+    //         details: review
+    //     }
+    //     console.log(newReviews);
+
+    //     fetch(`http://localhost:5000/services/${_id}`, {
+    //         method: 'POST',
+    //         headers: {
+    //             'content-type': 'application/json'
+    //         },
+    //         body: JSON.stringify(newReviews)
+    //     })
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             console.log(data);
+    //             // const nNReviews = [...reviews, data];
+    //             // setReview(nNReviews);
+    //             // console.log(nNReviews);
+    //         })
+    //         .catch(err => console.log(err))
+
+    // }
+
+
 
     return (
         <div className="card card-compact my-10 bg-base-100 shadow-xl w-10/12 mx-auto">
@@ -23,10 +61,12 @@ const ServiceDetails = () => {
             </div>
 
             <div className='m-10'>
-                <hr className='border border-emerald-700' />
-                <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>
-                <textarea name="review" className='rounded-lg w-full textarea textarea-accent text-xl' id="" cols="5" rows="5" placeholder="Write your review here at least 100 char..." /> <br />
-                <input type="submit" className='btn btn-info my-3' value="Submit" />
+                <form>
+                    <hr className='border border-emerald-700' />
+                    <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>
+                    <textarea name="review" className='rounded-lg w-full textarea textarea-accent text-xl' id="" cols="5" rows="5" placeholder="Write your review here ..." /> <br />
+                    <input type="submit" className='btn btn-info my-3' value="Submit" />
+                </form>
             </div>
 
             <div className='mx-10'>

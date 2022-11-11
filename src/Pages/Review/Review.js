@@ -3,6 +3,8 @@ import { FaUserCircle } from 'react-icons/fa';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const Review = ({ review }) => {
+
+
     const { user } = useContext(AuthContext);
     const { name, details } = review;
     return (
