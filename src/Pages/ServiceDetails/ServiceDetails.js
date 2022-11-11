@@ -25,7 +25,7 @@ const ServiceDetails = () => {
     //     }
     //     console.log(newReviews);
 
-    //     fetch(`http://localhost:5000/services/${_id}`, {
+    //     fetch(`https://photographer-review-server-eight.vercel.app/services/${_id}`, {
     //         method: 'POST',
     //         headers: {
     //             'content-type': 'application/json'
@@ -61,6 +61,7 @@ const ServiceDetails = () => {
             </div>
 
             <div className='m-10'>
+
                 <form>
                     <hr className='border border-emerald-700' />
                     <h1 className='font-bold text-xl my-3'>Write your feedback here.</h1>

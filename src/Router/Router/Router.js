@@ -52,7 +52,7 @@ export const router = createBrowserRouter([
             {
                 path: '/services/:id',
                 element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://photographer-review-server-eight.vercel.app/services/${params.id}`)
             }
         ]
     }
