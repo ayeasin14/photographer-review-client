@@ -11,7 +11,30 @@ const AddService = () => {
         const imgURL = form.imgURL.value;
         const servicePrice = form.servicePrice.value;
         const details = form.details.value;
-        console.log(serviceTitle, imgURL, servicePrice, details);
+
+        const service = {
+            title: serviceTitle,
+            img: imgURL,
+            price: servicePrice,
+            rating: 5,
+            description: details
+        }
+        console.log(service);
+
+
+        fetch("http://localhost:5000/addservice", {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(service)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(err => console.log(err))
+
 
         form.reset();
     }
